@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;700&display=swap');
+
+.header {
+    position: sticky;
+    top: 0;
+    min-height: 70px;
+    margin: 0 auto;
+    padding: 0 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background: #101010;
+    z-index: 10000;
+}
+
+.logo {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 28px;
+    line-height: 60px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header_btn {
+    margin-left: 12px;
+    width: 257px;
+    height: 40px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.header_btn:hover {
+    background: #a39fac;
+}
